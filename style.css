@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", monospace;
+}
+body{
+    background-color: #e8f0f2;
+    height: 100vh;
+}
+h1{
+    color: #2b2d42;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+#main{
+    text-align: center;
+    margin: auto;
+}
+#calcu{
+    background-color: #edf2f4;
+    border: 2px solid #2b2d42;
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    transform: translateY(-10px);
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #8d99ae;
+    color: #edf2f4;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+input[type="button"]:active {
+    transform: translateY(4px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #d1d9e0;
+    border: none;
+    border-radius: 5px;
+    color: #2b2d42;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
